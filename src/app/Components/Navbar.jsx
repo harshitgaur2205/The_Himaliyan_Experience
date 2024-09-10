@@ -129,7 +129,7 @@ const Logo = () => {
       href="#" // Link to navigate
       className="grid h-20 w-20 place-content-center rounded-br-xl rounded-tl-xl bg-white transition-colors hover:bg-violet-50"
     >
-      <img src="logo.png" />
+       <img src="/logo.png" />
     </motion.a>
   );
 };
