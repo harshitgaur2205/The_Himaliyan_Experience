@@ -4,11 +4,18 @@ import { motion } from "framer-motion";
 
 export const RevealLinks = () => {
   return (
-    <section className="grid  gap-6  px-8 py-24 text-black">
-      <FlipLink href="#">Twitter</FlipLink>
-      <FlipLink href="#">Linkedin</FlipLink>
-      <FlipLink href="#">Facebook</FlipLink>
-      <FlipLink href="https://www.instagram.com/the_himalayan_experience">Instagram</FlipLink>
+    <section className="grid  gap-12  px-8 py-24 text-black">
+      <div className="design_process" style={{display: "flex" , gap: 20}}>
+        {/* <FlipLink href="#">Our</FlipLink> */}
+        <FlipLink href="#">Journey</FlipLink>
+      </div>
+      
+      <div className="design_process" style={{display: "flex" , gap: 20}}>
+        {/* <FlipLink href="#">DESIGN</FlipLink> */}
+        <FlipLink href="#">PROCESS</FlipLink>
+      </div>
+      <FlipLink href="#">Projects</FlipLink>
+      
     </section>
   );
 };

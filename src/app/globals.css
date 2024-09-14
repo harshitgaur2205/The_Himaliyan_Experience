@@ -34,3 +34,15 @@ body {
 .links{
   color: #774b2d;
 }
+
+.image-1{
+  background-image: url('../public/LOGO-03.png');
+}
+/* .image-2{
+  background-image: url('../public/image-2.png');
+} */
+
+.desgin_process{
+  display: flex;
+  
+}
