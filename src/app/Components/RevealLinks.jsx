@@ -1,19 +1,18 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
+import page from "./DesignProcess/page";
 
 export const RevealLinks = () => {
   return (
     <section className="grid  gap-12  px-8 py-24 text-black">
-      <div className="design_process" style={{display: "flex" , gap: 20}}>
-        {/* <FlipLink href="#">Our</FlipLink> */}
-        <FlipLink href="#">Journey</FlipLink>
-      </div>
       
-      <div className="design_process" style={{display: "flex" , gap: 20}}>
-        {/* <FlipLink href="#">DESIGN</FlipLink> */}
-        <FlipLink href="#">PROCESS</FlipLink>
-      </div>
+      <FlipLink href="#">Journey</FlipLink>
+      
+      
+      
+      <FlipLink href='/Components/DesignProcess'>PROCESS</FlipLink>
+      
       <FlipLink href="#">Projects</FlipLink>
       
     </section>
