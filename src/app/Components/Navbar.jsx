@@ -72,7 +72,6 @@ const LinksOverlay = () => {
   return (
     <nav className="nav fixed right-4 top-4 z-40 h-[calc(100vh_-32px)] w-[calc(100%-_32px)] overflow-hidden">
       <Logo />
-      {/* <LinksContainer /> */} 
       <RevealLinks />
       <FooterCTAs />
     </nav>
@@ -92,28 +91,6 @@ const LinksContainer = () => {
     </motion.div>
   );
 };
-
-// const NavLink = ({ children, href, idx }) => {
-//   return (
-//     <motion.a
-//       initial={{ opacity: 0, y: -8 }}
-//       animate={{
-//         opacity: 1,
-//         y: 0,
-//         transition: {
-//           delay: 0.75 + idx * 0.125,
-//           duration: 0.5,
-//           ease: "easeInOut",
-//         },
-//       }}
-//       exit={{ opacity: 0, y: -8 }}
-//       href={href}
-//       className="nav block text-5xl font-semibold text-violet-400 transition-colors hover:text-violet-50 md:text-7xl"
-//     >
-//       {children}
-//     </motion.a>
-//   );
-// };
 
 const Logo = () => {
   // Temp logo from https://logoipsum.com/

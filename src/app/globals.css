@@ -44,5 +44,57 @@ body {
 
 .desgin_process{
   display: flex;
-  
+}
+
+.about{
+  background-color: #E4C296;
+  height: 100%;
+  width: 100%;
+
+  .hero{
+    height: 100vh;
+    width: 100vw;
+    /* color: black; */
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .part1{
+      /* background-color: #171717; */
+      height: 80%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+
+      .shuffle{
+        height: 100%;
+        width: 50%;
+        position: relative;
+      }
+
+      h1{
+        width: 50%;
+        height: 100%;
+        color: #7e4700;
+      }
+    }
+  }
+}
+.cards_holder{
+  /* background-color: #774b2d; */
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10%;
+  position: relative;
+}
+.cards{
+  position: absolute ; 
+  height: 80%;
+  width: 35%;
 }
